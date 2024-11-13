@@ -14,12 +14,12 @@ class _AboutPageState extends State<AboutPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.green.shade300,
+        backgroundColor: Colors.white,
         leading: IconButton(
           onPressed: () {},
           icon: const Icon(LineAwesomeIcons.angle_left_solid),
         ),
-        title: Text(tAboutPage, style: Theme.of(context).textTheme.headlineSmall),
+        title: Text("About Page", style: Theme.of(context).textTheme.headlineSmall),
       ),
       body: SingleChildScrollView(
         child: Container(
