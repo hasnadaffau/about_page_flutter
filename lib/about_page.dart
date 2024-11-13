@@ -59,7 +59,7 @@ class _AboutPageState extends State<AboutPage> {
                     const SizedBox(width: 10),
                     Expanded(
                       child: Text(
-                        "Fun Fact: I am passionate about Coffee and Matcha",
+                        "Fun Fact: I am passionate about Coffee",
                         style: Theme.of(context).textTheme.bodyMedium,
                       ),
                     ),
